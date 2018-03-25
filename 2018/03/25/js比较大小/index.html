@@ -5,14 +5,19 @@
   
 
   
-  <title>cat house</title>
+  <title>js比较大小 | cat house</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="cat house">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
+<meta name="keywords" content="js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="js比较大小">
+<meta property="og:url" content="http://yoursite.com/2018/03/25/js比较大小/index.html">
 <meta property="og:site_name" content="cat house">
+<meta property="og:description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
+<meta property="og:updated_time" content="2018-03-25T14:41:58.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="cat house">
+<meta name="twitter:title" content="js比较大小">
+<meta name="twitter:description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
   
     <link rel="alternate" href="/atom.xml" title="cat house" type="application/atom+xml">
   
@@ -59,9 +64,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-js比较大小" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-js比较大小" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/03/25/js比较大小/" class="article-date">
   <time datetime="2018-03-25T14:25:55.000Z" itemprop="datePublished">2018-03-25</time>
@@ -74,8 +77,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/25/js比较大小/">js比较大小</a>
+    <h1 class="article-title" itemprop="name">
+      js比较大小
     </h1>
   
 
@@ -83,12 +86,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="和"><a href="#和" class="headerlink" title="=== 和 =="></a>=== 和 ==</h2><p>=== 严格运算符<br>== 相等运算符<br>相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。<br>在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。<br>
-        
-          <p class="article-more-link">
-            <a href="/2018/03/25/js比较大小/#more">Read More</a>
-          </p>
-        
+        <h2 id="和"><a href="#和" class="headerlink" title="=== 和 =="></a>=== 和 ==</h2><p>=== 严格运算符<br>== 相等运算符<br>相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。<br>在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。<br><a id="more"></a><br>严格运算符的运算规则如下<br>(1)不同类型值<br>如果两个值的类型不同，直接返回false。<br>(2)同一类的原始类型值<br>同一类型的原始类型的值（数值、字符串、布尔值）比较时，值相同就返回true，值不同就返回false。<br>(3)同一类的复合类型值<br>两个复合类型（对象、数组、函数）的数据比较时，不是比较它们的值是否相等，而是比较它们是否指向同一个对象。<br>null === undefined // false</p>
+<p>相等运算符 隐式转换规则<br>— 如果一个值是null，另一个值是undefined，则它们相等。 null == undefined // true<br>— 如果一个值是数字，一个值是字符串，<font color="red">先将字符串转换为数字</font>，然后使用转换后的值进行比较。<br>— 如果其中一个值是true，则将其转换为1在进行比较。如果其中一个值是false，则将其转换为0再进行比较<br>— 如果其中一个值是对象，另一个值是数字或字符串，会将对象转换为原始值（通过 toString（）或 valueOf（）方法获取），然后比较。<br>valueOf() 方法可返回 Boolean 对象的原始值。<br>‘abc’ 和 123 比较怎么都是false</p>
+
       
     </div>
     <footer class="article-footer">
@@ -100,52 +100,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/03/20/hello-world/" class="article-date">
-  <time datetime="2018-03-20T13:50:00.000Z" itemprop="datePublished">2018-03-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/20/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2018/03/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.<br>
-        
-          <p class="article-more-link">
-            <a href="/2018/03/20/hello-world/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/20/hello-world/" data-id="cjf6wxsj50000nywz97iz1cts" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
