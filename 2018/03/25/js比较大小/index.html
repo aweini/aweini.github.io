@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
+<meta name="description" content="=== 和 ===== 严格运算符== 相等运算符">
 <meta name="keywords" content="js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="js比较大小">
 <meta property="og:url" content="http://yoursite.com/2018/03/25/js比较大小/index.html">
 <meta property="og:site_name" content="cat house">
-<meta property="og:description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
-<meta property="og:updated_time" content="2018-03-25T14:41:58.000Z">
+<meta property="og:description" content="=== 和 ===== 严格运算符== 相等运算符">
+<meta property="og:updated_time" content="2018-04-05T01:48:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js比较大小">
-<meta name="twitter:description" content="=== 和 ===== 严格运算符== 相等运算符相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。">
+<meta name="twitter:description" content="=== 和 ===== 严格运算符== 相等运算符">
 
 
 
@@ -185,7 +185,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -195,7 +195,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -259,7 +259,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-25T22:25:55+08:00">
                 2018-03-25
@@ -299,7 +299,8 @@
       
 
       
-        <h2 id="和"><a href="#和" class="headerlink" title="=== 和 =="></a>=== 和 ==</h2><p>=== 严格运算符<br>== 相等运算符<br>相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。<br>在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。<br><a id="more"></a><br>严格运算符的运算规则如下<br>(1)不同类型值<br>如果两个值的类型不同，直接返回false。<br>(2)同一类的原始类型值<br>同一类型的原始类型的值（数值、字符串、布尔值）比较时，值相同就返回true，值不同就返回false。<br>(3)同一类的复合类型值<br>两个复合类型（对象、数组、函数）的数据比较时，不是比较它们的值是否相等，而是比较它们是否指向同一个对象。<br>null === undefined // false</p>
+        <h2 id="和"><a href="#和" class="headerlink" title="=== 和 =="></a>=== 和 ==</h2><p>=== 严格运算符<br>== 相等运算符<br><a id="more"></a><br>相等运算符在比较相同类型的数据时，与严格相等运算符完全一样。<br>在比较不同类型的数据时，相等运算符会先将数据进行类型转换(隐式转换)，然后再用严格相等运算符比较。</p>
+<p>严格运算符的运算规则如下<br>(1)不同类型值<br>如果两个值的类型不同，直接返回false。<br>(2)同一类的原始类型值<br>同一类型的原始类型的值（数值、字符串、布尔值）比较时，值相同就返回true，值不同就返回false。<br>(3)同一类的复合类型值<br>两个复合类型（对象、数组、函数）的数据比较时，不是比较它们的值是否相等，而是比较它们是否指向同一个对象。<br>null === undefined // false</p>
 <p>相等运算符 隐式转换规则<br>— 如果一个值是null，另一个值是undefined，则它们相等。 null == undefined // true<br>— 如果一个值是数字，一个值是字符串，<font color="red">先将字符串转换为数字</font>，然后使用转换后的值进行比较。<br>— 如果其中一个值是true，则将其转换为1在进行比较。如果其中一个值是false，则将其转换为0再进行比较<br>— 如果其中一个值是对象，另一个值是数字或字符串，会将对象转换为原始值（通过 toString（）或 valueOf（）方法获取），然后比较。<br>valueOf() 方法可返回 Boolean 对象的原始值。<br>‘abc’ 和 123 比较怎么都是false</p>
 
       
@@ -402,10 +403,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -425,8 +426,8 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -439,7 +440,7 @@
               <div class="site-state-item site-state-tags">
                 
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">Tags</span>
+                  <span class="site-state-item-name">tags</span>
                 
               </div>
             
@@ -501,7 +502,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
